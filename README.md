@@ -1,114 +1,56 @@
-# EXP.A04-2026
-# 📦 Sistema de Gestão de Stock (Python)
+# 📦 Sistema de Gestão de Stock
 
-Este projeto é um sistema simples de gestão de stock desenvolvido em Python, executado via linha de comandos. Permite adicionar materiais, consultar quantidades, atualizar stock e visualizar o inventário completo.
-
----
-
-## 🚀 Funcionalidades
-
-* ➕ **Adicionar Material**
-
-  * Permite inserir um novo material no stock com uma quantidade inicial.
-  * Evita duplicação de materiais já existentes.
-
-* 🔍 **Consultar Stock**
-
-  * Consulta a quantidade disponível de um material específico.
-
-* 🔄 **Atualizar Stock**
-
-  * Adiciona ou remove unidades de um material existente.
-  * Valida se existe quantidade suficiente antes de remover.
-
-* 📋 **Exibir Stock Geral**
-
-  * Mostra todos os materiais e respetivas quantidades.
-
-* ❌ **Sair**
-
-  * Encerra o programa.
+Um programa simples em Python para gerir stock através do terminal.
 
 ---
 
-## 🧠 Estrutura do Código
+## ⬇️ Como Usar
 
-O sistema é composto pelas seguintes funções:
+### 🔹 Opção 1: Baixar o projeto
 
-* `adicionar_material(stock)`
-  Adiciona um novo material ao dicionário `stock`.
-
-* `consultar_stock(stock)`
-  Consulta a quantidade de um material.
-
-* `atualizar_stock(stock)`
-  Atualiza a quantidade (adicionar/remover).
-
-* `exibir_stock(stock)`
-  Mostra o estado completo do stock.
-
-* `main()`
-  Controla o menu principal e a interação com o utilizador.
+1. Clica no botão **"Code"** neste repositório.
+2. Seleciona **"Download ZIP"**.
+3. Extrai o ficheiro ZIP para uma pasta no teu computador.
 
 ---
 
-## 🛠️ Como Executar
+### ▶️ Executar o programa
 
-1. Certifica-te de que tens o Python instalado (versão 3.x).
-2. Guarda o código num ficheiro, por exemplo:
+1. Abre a pasta extraída.
+2. Procura o ficheiro `.py` (por exemplo: `stock.py`).
+3. Abre o terminal nessa pasta.
+4. Executa o seguinte comando:
 
-   ```
-   stock.py
-   ```
-3. Executa no terminal:
-
-   ```
-   python stock.py
-   ```
-
----
-
-## 💾 Estrutura de Dados
-
-O stock é armazenado num dicionário Python:
-
-```python
-stock = {
-    "material": quantidade
-}
 ```
-
-Exemplo:
-
-```python
-stock = {
-    "parafuso": 50,
-    "martelo": 10
-}
+python stock.py
 ```
 
 ---
 
-## ⚠️ Validações Implementadas
+## 🧩 Funcionalidades
 
-* Não permite adicionar materiais duplicados.
-* Impede remoção de stock superior ao disponível.
-* Verifica se o material existe antes de operações.
+* Adicionar materiais ao stock
+* Consultar stock existente
+* Atualizar quantidades (adicionar/remover)
+* Visualizar todos os materiais
 
 ---
 
-## 📌 Possíveis Melhorias
+## ⚠️ Requisitos
 
-* Guardar o stock em ficheiro (JSON ou CSV)
-* Interface gráfica (GUI)
-* Sistema de login
-* Relatórios de stock
-* Histórico de operações
+* Python 3 instalado no computador
+
+---
+
+## 📌 Notas
+
+* O programa funciona apenas no terminal (linha de comandos)
+* Os dados não são guardados após fechar o programa
 
 ---
 
 ## 👨‍💻 Autor
 
-Projeto desenvolvido para fins educativos.
+Projeto simples para aprendizagem de Python.
 
----
+
